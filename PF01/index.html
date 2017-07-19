@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Conor'Macgregor</title>
+    <link href="css/import.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="fancybox/lib/jquery-1.10.2.min.js"></script>
+    <script src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <link href="fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <script src="fancybox/lib/jquery.mousewheel.pack.js"></script>
+    <link href="fancybox/source/helpers/jquery.fancybox-buttons.css" rel="stylesheet" />
+    <script src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <link href="fancybox/source/helpers/jquery.fancybox-thumbs.css" rel="stylesheet" />
+    <script src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+    <script src="https://rawgithub.com/kayahr/jquery-fullscreen-plugin/master/jquery.fullscreen.js"></script>
+    <script src="fancybox/source/helpers/jquery.oembed.js"></script>
+    <link href="fancybox/source/css/jquery.oembed.css" rel="stylesheet" />
+
+    <script src="bxslider/js/jquery.bxslider.min.js"></script>
+    <link href="bxslider/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="bxslider/css/page.css" rel="stylesheet" />
+    <script src="bxslider/vender/jquery.easing.1.3.js"></script>
+    <script src="bxslider/vender/jquery.fitvids.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("header nav ul li a").removeClass("open");
+            var hashTagActive = "";
+            $(".scroll").click(function (event) {
+                if (hashTagActive != this.hash) {
+                    event.preventDefault();
+                    var dest = 0;
+                    if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                        dest = $(document).height() - $(window).height();
+                    } else {
+                        dest = $(this.hash).offset().top;
+                    }
+                    $('html,body').animate({
+                        scrollTop: dest
+                    }, 500, 'swing');
+                    hashTagActive = this.hash;
+                }
+            });
+            $('.altPrint').fancybox({
+                beforeShow: function () {
+                    var alt = this.element.find('img').attr('alt');
+                    this.inner.find('img').attr('alt', alt);
+                    this.title = alt;
+                }
+            });
+            $('.bxslider').bxSlider({
+                pagerCustom: '.thumbPager',
+                slideWidth: 1000,
+                minSlides: 1,
+                maxSlides: 1,
+                slideMargin: 10,
+                controls: false
+            });
+        });
+    </script>
+</head>
+<body>
+        <header>
+            <h1>
+                <a href="#"><img src="images/logo.png" alt="UFC logo"></a>
+            </h1>
+            <nav>
+                <label for="mnav" class="mui">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <input type="checkbox" id="mnav" class="mui" />
+                <ul>
+                    <li><a href="#home" class="active scroll">Home</a></li>
+                    <li><a href="#present" class="scroll">Present</a></li>
+                    <li><a href="#Video" class="scroll">Video</a></li>
+                    <li><a href="#Photo" class="scroll">Photo</a></li>
+                    <li><a href="#Contact" class="scroll">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <figure id="home">
+            <!--mark up modify-->
+            <figcaption>Conor <span>M</span>acgregor</figcaption>
+        </figure><!--bg-->
+        <!--page01-->
+
+        <article id="present">
+            <div>
+                <h2>THE OF A WARRIOR</h2>
+                <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+            </div>
+            <!--area set-->
+            <ul>
+                <li>
+                    <dl>
+                        <dt>Name : </dt>
+                        <dd>Conor Macgregor</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Fight Name : </dt>
+                        <dd>Notorious</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Age : </dt>
+                        <dd>28</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Height : </dt>
+                        <dd>5 ft 9 in (188cm)</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Weight : </dt>
+                        <dd>155 ld (70kg)</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Promotion : </dt>
+                        <dd>UFC</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Gym : </dt>
+                        <dd>SBG Ireland</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Divison : </dt>
+                        <dd>
+                            Featherweight(2008–2015)
+                            Lightweight(2008–2012)
+                            Welterweight (2016)
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </article>
+        <!--page2-->
+
+        <section class="videoFin" id="Video">
+            <div>
+                <!--bxSlider ul li x 6-->
+                <ul class="bxslider">
+                    <li>
+                        <h2>Best Game</h2>
+                        <p>printing and typesetting industry 'lorem ipsum web page editors now use making it look like English. The point of using Lorem If their default model text, and</p>
+                    </li>
+                    <li>
+                        <iframe src="https://www.youtube.com/embed/CI2N1-7tmYc" frameborder="0" allowfullscreen>></iframe>
+                    </li>          
+                    <li>           
+                        <iframe src="https://www.youtube.com/embed/fqJCmpUd4Rg" frameborder="0" allowfullscreen></iframe>
+                    </li>          
+                    <li>           
+                        <iframe src="https://www.youtube.com/embed/sf9vU0EDK4I" frameborder="0" allowfullscreen></iframe>
+                    </li>          
+                    <li>           
+                        <iframe src="https://www.youtube.com/embed/DOdOh2Jdbhg" frameborder="0" allowfullscreen></iframe>
+                    </li>          
+                    <li>           
+                        <iframe src="https://www.youtube.com/embed/LKeuSi4S62Q" frameborder="0" allowfullscreen></iframe>
+                    </li>          
+                    <li>           
+                        <iframe src="https://www.youtube.com/embed/K-p1TAxE3cg" frameborder="0" allowfullscreen></iframe>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>UFC TKO</h2>
+                <span>Click!</span>
+                <!--thumbPager ol-->
+                <ol class="thumbPager">
+                    <li>
+                        <a href="#" data-slide-index="0"><img src="images/thum_0.png" alt="Conor Macgrgor image" /></a>
+                    </li>
+                    <li>
+                        <a href="#" data-slide-index="1"><img src="images/thum_01.png" alt="Jose Aldo image" />Jose Aldo</a>                       
+                    </li>
+                    <li>
+                        <a href="#" data-slide-index="2"><img src="images/thum_02.png" alt="Chad Mendes image" />Chad Mendes</a>
+                    </li>
+                    <li>
+                        <a href="#" data-slide-index="3"><img src="images/thum_03.png" alt="Dos Anjos image" />Dos Anjos</a>
+                    </li>
+                    <li>
+                        <a href="#" data-slide-index="4"><img src="images/thum_04.png" alt="Max Holloway image" />Max Holloway</a>
+                    </li>
+                    <li>
+                        <a href="#" data-slide-index="5"><img src="images/thum_05.png" alt="Nathan Diaz image" />Nathan Diaz</a>
+                    </li>
+                    <li>
+                        <a href="#" data-slide-index="6"><img src="images/thum_06.png" alt="Eddie Alvarez image" />Eddie Alvarez</a>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <!--page3-->
+
+        <section class="photoFin" id="Photo">
+            <h2>WATCH<br />MORE</h2>
+            <ul>
+                <li><a class="altPrint" href="images/img_01.png"><img src="images/img_01.png" alt="Interview" /></a></li>
+                <li><a class="altPrint" href="images/img_02.png"><img src="images/img_02.png" alt="Two Title" /></a></li>
+                <li><a class="altPrint" href="images/img_03.png"><img src="images/img_03.png" alt="A man with flowers"/></a></li>
+                <li><a class="altPrint" href="images/img_04.png"><img src="images/img_04.png" alt="Freedom" /></a></li>
+                <li><a class="altPrint" href="images/img_05.png"><img src="images/img_05.png" alt="Fight Posture" /></a></li>
+                <li><a class="altPrint" href="images/img_06.png"><img src="images/img_06.png" alt="Two Title" /></a></li>
+            </ul>
+        </section>
+        <!--page4-->
+       
+        <section class="contactFin" id="Contact">
+            <div>
+                <h2>Get <span>in</span> touch</h2>
+                <div id="map"></div>
+                <script>
+        var panorama;
+        function initMap() {
+        //map Load
+            var myLatLng = { lat: 53.3274158, lng: -6.3403123};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17,
+            center: myLatLng,
+            streetViewControl: false
+          });
+
+            //mapStyle
+          var styles = [
+            {
+                stylers: [
+                  { hue: "#000000" },
+                  { saturation: -100 }
+                ]
+            }, {
+                featureType: "road",
+                elementType: "geometry", //geometry.fill 지형지물 구조의 채우기, geometry.stroke 지형지물의 스트로크
+                stylers: [
+                  { lightness: 0 },
+                  { visibility: "simplified" }
+                  //기본 on, off , simplified 가시성은 해당 지형지물에서 일부 스타일 지형지물을 제거
+                ]
+            }, {
+                featureType: "all",
+                // 지형지물 all : 모든요소 표시, road : 길만 표시
+                elementType: "labels",
+                // featureType의 요소에 해당하는 라벨 표시, labels.icon : 지형지물 레이블 내 아이콘만, labels.text : 레이블의 텍스트만 선택, labels.text.fill 레이블의채우기만, label.text.stroke 레이블텍스트의 선만
+                stylers: [
+                  { visibility: "on" }
+                  // 보여줄거냐 말거냐
+                ]
+            }
+          ];
+
+          map.setOptions({ styles: styles });
+
+        //marker Set
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Conrad Maldives Rangali Island'
+          });
+
+        //streetView
+          panorama = map.getStreetView();
+          panorama.setPosition(myLatLng);
+          panorama.setPov(/** @type {google.maps.StreetViewPov} */({
+              heading: 265,
+              pitch: 0
+          }));
+
+        // To add the marker to the map, call setMap();
+          marker.setMap(map);
+
+        // infoWindow
+          var contentString = '<div id="content">' +
+  '<div id="siteNotice">' +
+  '</div>' +
+  '<h1 id="firstHeading" class="firstHeading">Conrad Maldives Rangali Island</h1>' +
+  '<div id="bodyContent">' +
+  '<p>Rangali Island, Rangali 20077 Maldives</p>' +
+  '<p>+960 668-0629</p>' +
+  '<p>Attribution: Conrad Maldives Rangali Island, <a href="http://conradhotels3.hilton.com/">WEBSITE</a></p>' +
+  '</div>' +
+  '</div>';
+
+          var infowindow = new google.maps.InfoWindow({
+              content: contentString
+          });
+          marker.addListener('click', function () {
+              infowindow.open(map, marker);
+          });
+        }
+
+        //streetView Toggle
+        function toggleStreetView() {
+            var toggle = panorama.getVisible();
+            if (toggle == false) {
+                panorama.setVisible(true);
+            } else {
+                panorama.setVisible(false);
+            }
+        }
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfwOIGZZ34ftQ0gVDDnaYK2IFOsByBmtU&signed_in=true&callback=initMap"></script>
+
+                <ul>
+                    <li><small>1A, Concorde Industrial Estate Naas Rd</small></li>
+                    <li><a href="https://www.instagram.com/thenotoriousmma/" target="_blank">thenotoriousmma</a></li>
+                    <li><small>sbgireland.com</small></li>
+                    <li><small>+353 1 460 4845</small></li>
+                </ul>
+            </div>
+            <form action="#">
+                <fieldset>
+                    <legend>Mail <span>us</span></legend>
+                    <input type="text" placeholder="Full Name"/>
+                    <input type="email" placeholder="E-Mail"/>
+                    <textarea cols="80" rows="10" name="talkbox">Massege</textarea>
+                </fieldset>
+                <input type="submit" value="SUBMIT"/>
+            </form>
+
+            <footer>
+                <p>ⓒ Mardin.K Corporation All Rights Reserved.</p>
+            </footer>
+            <span>Contact</span>
+        </section>
+</body>
+</html>
