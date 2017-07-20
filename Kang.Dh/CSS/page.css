@@ -143,7 +143,7 @@
 }
 /*Tablet*/
 
-@media screen and (min-width:1280px){
+@media screen and (min-width:1280px) and (max-width:1919px){
     section:nth-child(2){width:100%;}
     section:nth-child(2):hover{background-color:white; transition-duration:2s;}
     section:nth-child(2) h2{background:url(../images/slide_01.png),url(../images/slide_01.png); background-size:7% 3%; background-position:40% center, 60% center; background-repeat:no-repeat;}
@@ -213,3 +213,74 @@
     /*page_04*/
 }
 /*PC*/
+
+@media screen and (min-width:1920px){
+    section:nth-child(2){width:100%;}
+    section:nth-child(2):hover{background-color:white; transition-duration:2s;}
+    section:nth-child(2) h2{background:url(../images/slide_01.png),url(../images/slide_01.png); background-size:7% 3%; background-position:40% center, 60% center; background-repeat:no-repeat;}
+    section:nth-child(2) h2:first-letter{color:#d52823;}
+    section:nth-child(2) h2 a{color:#e5b419;}
+    section:nth-child(2) p{width:70%; margin:0 auto 130px; text-align:left; font-size:20px; line-height:35px; font-weight:700;}
+    section:nth-child(2) p::-webkit-scrollbar{width:10px;}
+    section:nth-child(2) p::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,3);}
+    section:nth-child(2) p::-webkit-scrollbar-thumb{background-color:darkgray; outline:1px solid slategrey;}
+    section:nth-child(2) p strong{color:#348637; font-size:35px; display:block; margin-bottom:60px; text-align:center;}
+    section:nth-child(2) p strong:first-letter{font-size:30px; color:#d52823; font-weight:700;}
+    section:nth-child(2) ul:after{content:''; display:block; clear:both; visibility:hidden;}
+    section:nth-child(2) ul{width:80%; margin:0 auto;}
+    section:nth-child(2) ul li{width:30%; float:left; margin-left:2%;}
+    section:nth-child(2) ul ellipse:first-child{margin-left:0;}
+    section:nth-child(2) ul li dl dt{text-align:left; margin-bottom:15px; font-size:30px; font-weight:600;}
+    section:nth-child(2) ul li dl dd{text-align:right; width:90%; border:2px solid black; padding:10px 0; border-radius:20px;}
+    section:nth-child(2) ul li:first-child dl dt{background:url(../images/gauge_01.png) no-repeat; background-size:17% 19%; background-position:0%;}
+    section:nth-child(2) ul li:nth-child(2) dl dt{background:url(../images/gauge_02.png) no-repeat; background-size:12% 19%; background-position:0%;}
+    section:nth-child(2) ul li:last-child dl dt{background:url(../images/gauge_03.png) no-repeat; background-size:19% 19%; background-position:1%;}
+    section:nth-child(2) ul li:first-child dl dd{background:url(../images/gauge_01.png) no-repeat; background-size:10% 104%; background-position:left; background-color:#9c9999;}
+    section:nth-child(2) ul li:nth-child(2) dl dd{background:url(../images/gauge_02.png) no-repeat; background-size:10% 104%; background-position:left; background-color:#9c9999;}
+    section:nth-child(2) ul li:last-child dl dd{background:url(../images/gauge_03.png) no-repeat; background-size:10% 104%; background-position:left; background-color:#9c9999;}
+    section:nth-child(2):hover ul li dl dd{background-size:90% 104%; transition-duration:3s;}
+    section:nth-child(2):hover ul li:last-child dl dd{background-size:80% 104%;}
+    /*page_02*/
+
+    section:nth-child(3){width:100%;}
+    section:nth-child(3) h2{background:url(../images/slide_02.png),url(../images/slide_02.png); background-size:7% 3%; background-position:35% center , 65% center; background-repeat:no-repeat; margin-bottom:80px;}
+    section:nth-child(3) h2 a{color:#00498a;}
+    section:nth-child(3) h2 a span:first-child{color:#348637;}
+    section:nth-child(3) h2 a span:nth-child(2){color:#d52823;}
+    section:nth-child(3) h2 a span:nth-child(3){color:#674893;}
+    section:nth-child(3) h2 a span:last-child{color:#e5b419;}
+    section:nth-child(3) ul li:after{content:''; display:block; clear:both; visibility:hidden;}
+    section:nth-child(3) ul li img{width:70%; border-width:3px; border-style:solid; border-color:#d52823 #00498a #348637  #e5b419;  margin:0 5% 0 10%; float:left;}
+    section:nth-child(3) ul li a{color:black; font-size:25px; display:inline-block; margin-top:175px; line-height:35px; font-weight:400; text-shadow:2px 2px 4px #666; transition-duration:1s;}
+    section:nth-child(3) ul li a:hover{font-size:30px;}
+    section:nth-child(3) ul li a:first-letter{color:#d52823; font-size:35px; font-weight:700;}         
+    section:nth-child(3) ul li a strong{color:#348637;}                                                                 
+    section:nth-child(3) ul li a strong:nth-child(2){padding-left:20%;}
+
+    div.bx-wrapper{box-shadow:none; border:none; background:none; margin-left:18%;}
+    div.bx-wrapper div.bx-controls-direction a{top:60%;}
+    div.bx-wrapper a.bx-prev{left:85%; background:url(../images/button_01.png) no-repeat; background-size:100%;}
+    div.bx-wrapper a.bx-next{right:4%; background:url(../images/button_02.png) no-repeat; background-size:100%;}
+    div.bx-wrapper a.bx-next:hover{ background-position:0;}  /*bxslider css*/
+    /*page_03*/
+
+    article{width:100%;}
+    article h2{background:url(../images/slide_03.png), url(../images/slide_03.png); background-size:7% 3%; background-position:33% center, 67% center; background-repeat:no-repeat; margin-bottom:40px;}
+    article h2 a{color:#348637;}
+    article h2 a span:first-child{color:#00498a;}
+    article h2 a span:nth-child(2){color:#d52823;}
+    article h2 a span:nth-child(3){color:#db97a2;}
+    article h2 a span:last-child{color:#674893;}
+    article ul{width:75%; margin:0 auto 45px; background:url(../images/logo.png) no-repeat; background-size:25%; background-position:90%; padding:3% 6%}
+    article ul li{margin-bottom:30px; padding:3% 9%;}
+    article ul li a{font-size:50px; font-weight:500; width:100%; text-shadow:2px 2px 4px #666; transition-duration:2s;}
+    article ul li a:hover{font-size:35px; font-weight:600;}
+    article ul li:first-child a{color:#d52823;}
+    article ul li:nth-child(2) a{color:#e5b419;}
+    article ul li:last-child a{color:#348637;}
+    article ul li:first-child{background:url(../images/icon_01.png) no-repeat; background-size:4%; background-position:left center;}
+    article ul li:nth-child(2){background:url(../images/icon_02.png) no-repeat; background-size:6%; background-position:left center;}
+    article ul li:last-child{background:url(../images/icon_03.png) no-repeat; background-size:6%; background-position:left center;}
+    /*page_04*/
+}
+/*PC_Width*/

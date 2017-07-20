@@ -96,7 +96,7 @@ a{text-decoration:none;}
 }
 /*Tablet*/
 
-@media screen and (min-width:1280px){
+@media screen and (min-width:1280px) and (max-width:1919px){
     section.first:after{content:''; display:block; clear:both; visibility:hidden;}
     section.first > *{float:left;}
     section.first{text-shadow:2px 2px 4px #000000;}
@@ -136,3 +136,44 @@ a{text-decoration:none;}
     /*footer*/
 }
 /*PC*/
+
+@media screen and (min-width:1920px){
+    section.first:after{content:''; display:block; clear:both; visibility:hidden;}
+    section.first > *{float:left;}
+    section.first{text-shadow:2px 2px 4px #000000;}
+    section.first header{width:35%; margin-top:40%; text-align:center;}
+    section.first header:hover{transform:scale(1.1); transition-duration:1s;}
+    section.first header h1{font-size:40px; margin-bottom:15px; font-weight:600; text-shadow:2px 2px 4px #666;}
+    section.first header h1 a{width:100%; color:black;}
+    section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
+    section.first header p span:first-child{color:#348637;}
+    section.first header p span:nth-child(2){color:#674893;}
+    section.first header p span:nth-child(3){color:#d52823;}
+    section.first header p span:nth-child(4){color:#00498a;}
+    section.first header p span:nth-child(5){color:#348637;}
+    section.first header p span:nth-child(6){color:#e5b419;}
+    section.first header p span:nth-child(7){color:#674893;}
+    section.first header p span:nth-child(8){color:#d52823;}
+    section.first header p span:nth-child(9){color:#00498a;}
+    section.first header p span:last-child{color:#d52823;}
+
+    section.first figure:after{content:''; display:block; visibility:hidden; clear:both;}
+    section.first figure{width:60%;}
+    section.first figure img{width:50%; margin-top:60px; float:left;}
+    section.first figure figcaption{padding:300px 0 0 50%; width:50%;}
+    section.first figure figcaption > span{font-size:30px; font-weight:400; padding:10% 15% 5% 0;}
+    section.first figure figcaption > span:first-child{margin:0 0 175px 15%; display:block; color:#d52823;}
+    section.first figure figcaption > span:nth-child(2){color:#00498a;}
+
+    div.swiper-container-vertical>.swiper-pagination-bullets{right:16px;}
+    span.swiper-pagination-bullet{width:15px; height:15px; background-color:#674893;}
+    span.swiper-pagination-bullet:nth-child(2){background-color:#d52823;}
+    span.swiper-pagination-bullet:nth-child(3){background-color:#00498a;}
+    span.swiper-pagination-bullet:nth-child(4){background-color:#348637;}/*swiper Fin*/
+    /*page_01*/
+
+    footer{width:60%; margin:0 auto;}
+    footer p{text-align:center; }
+    /*footer*/
+}
+/*PC_Width*/
