@@ -151,13 +151,15 @@ a{text-decoration:none;}
     article.aboutFin p:hover{color:white;}
      /*About Fin*/
 
-    section.foodFin{width:100%; background:url(../images/bg_03.png) no-repeat; background-size:cover;}
-    section.foodFin h2{text-indent:-9999px;}
+    section.foodFin{width:100%;}
+    section.foodFin h2{text-align:center; font-size:50px; margin-bottom:80px; padding-top:30px;}
+    section.foodFin h2 a{width:100%; color:#f4ca24;}
     section.foodFin ul.bxslider_02{width:100%; text-align:center;}
     section.foodFin ul.bxslider_02 li::after{content:''; display:block; visibility:hidden; clear:both;}
     section.foodFin ul.bxslider_02 img{float:left; width:30%;}
-    section.foodFin ul.bxslider_02 li h3{font-size:50px; margin-bottom:40px; color:#f4ca24; display:block;}
-    section.foodFin ul.bxslider_02 li p{font-size:20px; color:white; display:block; width:60%; margin-left:35%; transition-duration:1s;}
+    section.foodFin ul.bxslider_02 li h3{font-size:35px; margin-bottom:40px; color:#9f9258; display:block;}
+    section.foodFin ul.bxslider_02 li h3:hover{color:#f4ca24;}
+    section.foodFin ul.bxslider_02 li p{font-size:15px; color:white; display:block; width:60%; margin-left:35%; transition-duration:1s;}
     div.bx-wrapper{box-shadow:none; border:none; background:none; margin:0 auto;}
     section.foodFin div.bx-viewport{padding-top:600px;}
     /*foodFin*/
