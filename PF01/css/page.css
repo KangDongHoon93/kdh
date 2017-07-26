@@ -1,11 +1,4 @@
-﻿
-body > *{font-family: 'Teko', sans-serif;}
-
-a{text-decoration:none;}
-
-section.videoFin ul li iframe{width:100%;}
-
-@media screen and (min-width:340px) and (max-width:399px){
+﻿@media screen and (min-width:340px) and (max-width:399px){
     article{width:100%; background:url(../images/bg_02.png); background-repeat:no-repeat; 
                background-size:cover; background-position:center center; color:white; margin-bottom:100px;}
     article div{width:100%; text-align:left; margin-bottom:50px;}
@@ -44,9 +37,9 @@ section.videoFin ul li iframe{width:100%;}
     section.videoFin div:last-of-type ol.thumbPager:after{content:''; visibility:hidden; display:block; clear:both;}
     section.videoFin div:last-of-type ol.thumbPager li:not(:first-of-type){float:left; margin:0 5% 15px 0; width:10%; text-align:center;}
     section.videoFin div:last-of-type ol.thumbPager li:first-of-type{width:45%; padding:50px 0 0 10%; box-sizing:border-box;}
-    section.videoFin div:last-of-type ol.thumbPager li:first-of-type a{width:100%; color:white;}
+    section.videoFin div:last-of-type ol.thumbPager li:first-of-type a{display:block; color:white;}
     section.videoFin div:last-of-type ol.thumbPager li:first-of-type a img{width:60%;}
-    section.videoFin div:last-of-type ol.thumbPager li a{width:100%; color:white;}
+    section.videoFin div:last-of-type ol.thumbPager li a{display:block; color:white;}
     section.videoFin > span{display:none;}
     /*Video Fin*/     
 
@@ -58,7 +51,7 @@ section.videoFin ul li iframe{width:100%;}
     section.photoFin ul:after{content:''; visibility:hidden; display:block; clear:both;}
     section.photoFin ul li{width:35%; float:left; margin:0 0 20px 1%;}
     section.photoFin ul li:first-child, section.photoFin ul li:nth-child(4){margin-left:0;}
-    section.photoFin ul li a{width:100%; border:2px solid transparent; display:block; box-sizing:border-box;}
+    section.photoFin ul li a{display:block; border:2px solid transparent; display:block; box-sizing:border-box;}
     section.photoFin ul li a:hover{border:2px solid #61fb37; box-sizing:border-box;}
     section.photoFin ul li a img{width:100%;}
     section.photoFin > span{display:none;}
@@ -80,7 +73,7 @@ section.videoFin ul li iframe{width:100%;}
     section.contactFin form fieldset legend{font-size:50px; font-weight:700; margin-bottom:20px; text-align:center;}
     section.contactFin form fieldset legend span{color:#61fb37;}
     section.contactFin form fieldset input{padding:10px 30% 10px 0; width:70%; margin-bottom:20px;}
-    section.contactFin form fieldset textarea{width:100%; margin-bottom:20px;}
+    section.contactFin form fieldset textarea{display:block; margin-bottom:20px;}
     section.contactFin form input[type=submit]{background-color:#61fb37; padding:10px 10%; border:none; margin:0 0 50px 35%;}
 
     section.contactFin > span{display:none;}
@@ -127,9 +120,9 @@ section.videoFin ul li iframe{width:100%;}
     section.videoFin > div:last-child ol.thumbPager:after{content:''; visibility:hidden; display:block; clear:both;}
     section.videoFin > div:last-child ol.thumbPager li:not(:first-of-type){float:left; margin:0 5% 15px 0; width:10%; text-align:center;}
     section.videoFin > div:last-child ol.thumbPager li:first-of-type{width:45%; padding:50px 0 0 10%; box-sizing:border-box;}
-    section.videoFin > div:last-child ol.thumbPager li:first-of-type a{width:100%; color:white;}
+    section.videoFin > div:last-child ol.thumbPager li:first-of-type a{display:block; color:white;}
     section.videoFin > div:last-child ol.thumbPager li:first-of-type a img{width:60%;}
-    section.videoFin > div:last-child ol.thumbPager li a{width:100%; color:white;}
+    section.videoFin > div:last-child ol.thumbPager li a{display:block; color:white;}
     section.videoFin > span{display:none;}
     /*Video Fin*/     
 
@@ -141,7 +134,7 @@ section.videoFin ul li iframe{width:100%;}
     section.photoFin ul:after{content:''; visibility:hidden; display:block; clear:both;}
     section.photoFin ul li{width:35%; float:left; margin:0 0 20px 1%;}
     section.photoFin ul li:first-child, section.photoFin ul li:nth-child(4){margin-left:0;}
-    section.photoFin ul li a{width:100%; border:2px solid transparent; display:block; box-sizing:border-box;}
+    section.photoFin ul li a{display:block; border:2px solid transparent; display:block; box-sizing:border-box;}
     section.photoFin ul li a:hover{border:2px solid #61fb37; box-sizing:border-box;}
     section.photoFin ul li a img{width:100%;}
     section.photoFin > span{display:none;}
@@ -163,7 +156,7 @@ section.videoFin ul li iframe{width:100%;}
     section.contactFin form fieldset legend{font-size:50px; font-weight:700; margin-bottom:20px; text-align:center;}
     section.contactFin form fieldset legend span{color:#61fb37;}
     section.contactFin form fieldset input{padding:10px 30% 10px 0; width:70%; margin-bottom:20px;}
-    section.contactFin form fieldset textarea{width:100%; margin-bottom:20px;}
+    section.contactFin form fieldset textarea{display:block; margin-bottom:20px;}
     section.contactFin form input[type=submit]{background-color:#61fb37; padding:10px 10%; border:none; margin:0 0 50px 35%;}
 
     section.contactFin > span{display:none;}
@@ -209,9 +202,9 @@ section.videoFin ul li iframe{width:100%;}
     section.videoFin > div:last-child ol.thumbPager:after{content:''; visibility:hidden; display:block; clear:both;}
     section.videoFin > div:last-child ol.thumbPager li:not(:first-of-type){float:left; margin:0 5% 15px 0; width:11%; text-align:center;}
     section.videoFin > div:last-child ol.thumbPager li:first-of-type{width:47%; padding:50px 0 0 20%; box-sizing:border-box;}
-    section.videoFin > div:last-child ol.thumbPager li:first-of-type a{width:100%; color:white;}
+    section.videoFin > div:last-child ol.thumbPager li:first-of-type a{display:block; color:white;}
     section.videoFin > div:last-child ol.thumbPager li:first-of-type a img{width:60%;}
-    section.videoFin > div:last-child ol.thumbPager li a{width:100%; color:white;}
+    section.videoFin > div:last-child ol.thumbPager li a{display:block; color:white;}
     section.videoFin > span{display:none;}
     /*Video Fin*/     
 
@@ -223,7 +216,7 @@ section.videoFin ul li iframe{width:100%;}
     section.photoFin ul:after{content:''; visibility:hidden; display:block; clear:both;}
     section.photoFin ul li{width:25%; float:left; margin:0 0 20px 1%;}
     section.photoFin ul li:first-child, section.photoFin ul li:nth-child(4){margin-left:0;}
-    section.photoFin ul li a{width:100%; border:2px solid transparent; display:block; box-sizing:border-box;}
+    section.photoFin ul li a{display:block; border:2px solid transparent; display:block; box-sizing:border-box;}
     section.photoFin ul li a:hover{border:2px solid #61fb37; box-sizing:border-box;}
     section.photoFin ul li a img{width:100%;}
     section.photoFin > span{display:none;}
@@ -245,7 +238,7 @@ section.videoFin ul li iframe{width:100%;}
     section.contactFin form fieldset legend{font-size:50px; font-weight:700; margin-bottom:20px; text-align:center;}
     section.contactFin form fieldset legend span{color:#61fb37;}
     section.contactFin form fieldset input{padding:15px 30% 15px 0; width:70%; margin-bottom:20px;}
-    section.contactFin form fieldset textarea{width:100%; margin-bottom:20px;}
+    section.contactFin form fieldset textarea{display:bloc; margin-bottom:20px;}
     section.contactFin form input[type=submit]{background-color:#61fb37; padding:10px 10%; border:none; margin:0 0 50px 35%;}
     section.contactFin > span{display:none;}
     /*Contact Fin*/
@@ -289,9 +282,9 @@ section.videoFin ul li iframe{width:100%;}
     section.videoFin > div:last-child ol.thumbPager:after{content:''; visibility:hidden; display:block; clear:both;}
     section.videoFin > div:last-child ol.thumbPager li:not(:first-of-type){float:left; margin:0 5% 15px 0; width:11%; text-align:center;}
     section.videoFin > div:last-child ol.thumbPager li:first-of-type{width:47%; padding:50px 0 0 20%; box-sizing:border-box;}
-    section.videoFin > div:last-child ol.thumbPager li:first-of-type a{width:100%;}
+    section.videoFin > div:last-child ol.thumbPager li:first-of-type a{display:block;}
     section.videoFin > div:last-child ol.thumbPager li:first-of-type a img{width:60%;}
-    section.videoFin > div:last-child ol.thumbPager li a{width:100%; color:white;} 
+    section.videoFin > div:last-child ol.thumbPager li a{display:block; color:white;} 
     /*Video Fin*/     
 
     section.photoFin{color:white; width:100%; margin:0 auto 50px; background:url(../images/bg_img_03.png), url(../images/bg_03.png);
@@ -302,7 +295,7 @@ section.videoFin ul li iframe{width:100%;}
     section.photoFin ul:after{content:''; visibility:hidden; display:block; clear:both;}
     section.photoFin ul li{width:25%; float:left; margin:0 0 20px 1%;}
     section.photoFin ul li:first-child, section.photoFin ul li:nth-child(4){margin-left:0;}
-    section.photoFin ul li a{width:100%; border:2px solid transparent; display:block; box-sizing:border-box;}
+    section.photoFin ul li a{display:block; border:2px solid transparent; display:block; box-sizing:border-box;}
     section.photoFin ul li a:hover{border:2px solid #61fb37; box-sizing:border-box;}
     section.photoFin ul li a img{width:100%;}
     /*Photo Fin*/
@@ -328,7 +321,7 @@ section.videoFin ul li iframe{width:100%;}
     section.contactFin form fieldset legend{font-size:50px; font-weight:700; margin-bottom:20px; text-align:center;}
     section.contactFin form fieldset legend span{color:#61fb37;}
     section.contactFin form fieldset input{padding:15px 28% 15px 1%; width:70%;  margin-bottom:20px;}
-    section.contactFin form fieldset textarea{padding:65px 5%; box-sizing:border-box; width:100%; margin-bottom:20px;}
+    section.contactFin form fieldset textarea{padding:65px 5%; box-sizing:border-box; display:block; margin-bottom:20px;}
     section.contactFin form input[type=submit]{background-color:#61fb37; padding:10px 10%; border:none; display:block; margin:0 auto;}
 
     section.contactFin > span{display:none;}

@@ -25,7 +25,7 @@ a{text-decoration:none;}
     section.first header{margin-top:20%; text-align:center;}
     section.first header:hover{transform:scale(1.1); transition-duration:1s;}
     section.first header h1{font-size:30px; margin-bottom:15px; font-weight:700; text-shadow:2px 2px 4px #666;}
-    section.first header h1 a{width:100%; color:black;}
+    section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
     section.first header p span:first-child{color:#348637;}
     section.first header p span:nth-child(2){color:#674893;}
@@ -63,7 +63,7 @@ a{text-decoration:none;}
     section.first header{margin-top:7%; text-align:center;}
     section.first header:hover{transform:scale(1.1); transition-duration:1s;}
     section.first header h1{font-size:30px; margin-bottom:15px; font-weight:700; text-shadow:2px 2px 4px #666;}
-    section.first header h1 a{width:100%; color:black;}
+    section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
     section.first header p span:first-child{color:#348637;}
     section.first header p span:nth-child(2){color:#674893;}
@@ -103,7 +103,7 @@ a{text-decoration:none;}
     section.first header{width:35%; margin-top:40%; text-align:center;}
     section.first header:hover{transform:scale(1.1); transition-duration:1s;}
     section.first header h1{font-size:40px; margin-bottom:15px; font-weight:600; text-shadow:2px 2px 4px #666;}
-    section.first header h1 a{width:100%; color:black;}
+    section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
     section.first header p span:first-child{color:#348637;}
     section.first header p span:nth-child(2){color:#674893;}
@@ -144,7 +144,7 @@ a{text-decoration:none;}
     section.first header{width:35%; margin-top:40%; text-align:center;}
     section.first header:hover{transform:scale(1.1); transition-duration:1s;}
     section.first header h1{font-size:40px; margin-bottom:15px; font-weight:600; text-shadow:2px 2px 4px #666;}
-    section.first header h1 a{width:100%; color:black;}
+    section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
     section.first header p span:first-child{color:#348637;}
     section.first header p span:nth-child(2){color:#674893;}
