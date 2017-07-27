@@ -22,8 +22,8 @@ a{text-decoration:none;}
 
 @media screen and (max-width:769px){
     section.first{width:100%; text-shadow:2px 2px 4px #000000;}
-    section.first header{margin-top:20%; text-align:center;}
-    section.first header:hover{transform:scale(1.1); transition-duration:1s;}
+    section.first header{margin-top:20%; text-align:center; transition-duration:1s;}
+    section.first header:hover{transform:scale(1.1);}
     section.first header h1{font-size:30px; margin-bottom:15px; font-weight:700; text-shadow:2px 2px 4px #666;}
     section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
@@ -60,8 +60,8 @@ a{text-decoration:none;}
 
 @media screen and (min-width:770px) and (max-width:1279px){
     section.first{width:100%; text-shadow:2px 2px 4px #000000;}
-    section.first header{margin-top:7%; text-align:center;}
-    section.first header:hover{transform:scale(1.1); transition-duration:1s;}
+    section.first header{margin-top:7%; text-align:center; transition-duration:1s;}
+    section.first header:hover{transform:scale(1.1);}
     section.first header h1{font-size:30px; margin-bottom:15px; font-weight:700; text-shadow:2px 2px 4px #666;}
     section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
@@ -100,9 +100,9 @@ a{text-decoration:none;}
     section.first:after{content:''; display:block; clear:both; visibility:hidden;}
     section.first > *{float:left;}
     section.first{text-shadow:2px 2px 4px #000000;}
-    section.first header{width:35%; margin-top:40%; text-align:center;}
-    section.first header:hover{transform:scale(1.1); transition-duration:1s;}
-    section.first header h1{font-size:40px; margin-bottom:15px; font-weight:600; text-shadow:2px 2px 4px #666;}
+    section.first header{width:35%; margin-top:40%; text-align:center; transition-duration:1s;}
+    section.first header:hover{transform:scale(1.1);}
+    section.first header h1{margin-bottom:15px; font-size:40px; font-weight:600; text-shadow:2px 2px 4px #666;}
     section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}
     section.first header p span:first-child{color:#348637;}
@@ -141,8 +141,8 @@ a{text-decoration:none;}
     section.first:after{content:''; display:block; clear:both; visibility:hidden;}
     section.first > *{float:left;}
     section.first{text-shadow:2px 2px 4px #000000;}
-    section.first header{width:35%; margin-top:40%; text-align:center;}
-    section.first header:hover{transform:scale(1.1); transition-duration:1s;}
+    section.first header{width:35%; margin-top:40%; text-align:center; transition-duration:1s;}
+    section.first header:hover{transform:scale(1.1);}
     section.first header h1{font-size:40px; margin-bottom:15px; font-weight:600; text-shadow:2px 2px 4px #666;}
     section.first header h1 a{display:block; color:black;}
     section.first header p{font-size:15px; color:#e2b415; font-weight:300;}

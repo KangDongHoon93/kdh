@@ -1,6 +1,6 @@
 ﻿@media screen and (max-width:769px){
-    section:nth-child(2){width:100%;}
-    section:nth-child(2):hover{background-color:white; transition-duration:2s;}
+    section:nth-child(2){width:100%; transition-duration:2s;}
+    section:nth-child(2):hover{background-color:white;}
     section:nth-child(2) h2{background:url(../images/slide_01.png),url(../images/slide_01.png); background-size:15% 3%; background-position:23% center, 76% center; background-repeat:no-repeat;}
     section:nth-child(2) h2:first-letter{color:#d52823;}
     section:nth-child(2) h2 a{color:#e5b419; display:block;}
@@ -72,8 +72,8 @@
 /*Mobile*/
 
 @media screen and (min-width:770px) and (max-width:1279px){
-    section:nth-child(2){width:100%;}
-    section:nth-child(2):hover{background-color:white; transition-duration:2s;}
+    section:nth-child(2){width:100%; transition-duration:2s;}
+    section:nth-child(2):hover{background-color:white;}
     section:nth-child(2) h2{background:url(../images/slide_01.png),url(../images/slide_01.png); background-size:10% 3%; background-position:33% center, 66% center; background-repeat:no-repeat;}
     section:nth-child(2) h2:first-letter{color:#d52823;}
     section:nth-child(2) h2 a{color:#e5b419; display:block;}
@@ -144,8 +144,8 @@
 /*Tablet*/
 
 @media screen and (min-width:1280px) and (max-width:1919px){
-    section:nth-child(2){width:100%;}
-    section:nth-child(2):hover{background-color:white; transition-duration:2s;}
+    section:nth-child(2){width:100%; transition-duration:2s;}
+    section:nth-child(2):hover{background-color:white;}
     section:nth-child(2) h2{background:url(../images/slide_01.png),url(../images/slide_01.png); background-size:7% 3%; background-position:40% center, 60% center; background-repeat:no-repeat;}
     section:nth-child(2) h2:first-letter{color:#d52823;}
     section:nth-child(2) h2 a{color:#e5b419; display:block;}
