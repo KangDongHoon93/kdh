@@ -8,17 +8,17 @@ a{text-decoration:none;}
     section.Tours header a{color:white; display:block;}
     section.Tours header h1{font-size:40px; color:white; margin-bottom:20px; font-weight:500; width:35%;}
     section.Tours header p{font-size:15px; color:white; line-height:22px; margin-bottom:20px;}
-    section.Tours header > a{font-size:25px; border:3px solid white; font-weight:500; display:inline-block; margin-right:5%; padding:5px 2%;}
+    section.Tours header > a{font-size:20px; border:2px solid white; font-weight:500; display:inline-block; margin-right:5%; padding:5px 2%; transition-duration:2s;}
+    section.Tours header > a:hover{background-color:#205ed7;}
     section.Tours ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Tours ul li{float:left; width:25%;}
     section.Tours ul li a{display:block; color:white;}
-    section.Tours ul li a dl{background-size:cover; background-position:center; background-repeat:no-repeat; text-align:center;}
-    section.Tours ul li:first-child a dl{background:url(../images/1_li_01.png);}
-    section.Tours ul li:nth-child(2) a dl{background:url(../images/1_li_02.png);}
-    section.Tours ul li:nth-child(3) a dl{background:url(../images/1_li_03.png);}
-    section.Tours ul li:last-child a dl{background:url(../images/1_li_04.png);}
-    section.Tours ul li a dl dt{font-size:25px; padding:0; margin-bottom:10px;}
-    section.Tours ul li a dl dd{font-size:15px; line-height:22px; margin:0 auto; padding-bottom:15px;}
+    section.Tours ul li:first-child a dl{background:url(../images/1_li_01.png) center no-repeat;}
+    section.Tours ul li:nth-child(2) a dl{background:url(../images/1_li_02.png) center no-repeat;}
+    section.Tours ul li:nth-child(3) a dl{background:url(../images/1_li_03.png) center no-repeat;}
+    section.Tours ul li:last-child a dl{background:url(../images/1_li_04.png) center no-repeat;}
+    section.Tours ul li a dl dt{font-size:20px; padding:0; margin-bottom:10px; text-align:center;} 
+    section.Tours ul li a dl dd{font-size:13px; line-height:22px; text-align:center; padding-bottom:15px;}
     /*ToursFin*/
 
     footer{width:100%;background-color:black;}
@@ -31,6 +31,7 @@ a{text-decoration:none;}
     footer nav ul:not(:last-child) li a{width:100%; display:block;}
     footer nav ul:not(:last-child) li a dl dt{font-size:15px; margin-bottom:20px; padding-top:5px;}
     footer nav ul:not(:last-child) li a dl dd{font-size:10px; margin-bottom:10px; line-height:15px;}
+    footer nav ul:not(:last-child) li a dl dd:hover{font-size:15px;}
     footer nav ul:last-child{float:right; width:25%; padding-top:20px;}
     footer nav ul:last-child li{display:block; width:60%; padding-top:50px; text-indent:-9999px; margin:0 auto;}
     footer nav ul:last-child li a{display:block;}
@@ -47,7 +48,8 @@ a{text-decoration:none;}
     section.Tours header a{color:white; display:block;}
     section.Tours header h1{font-size:70px; color:white; margin-bottom:20px; font-weight:500;}
     section.Tours header p{font-size:20px; color:white; line-height:22px; margin-bottom:20px;}
-    section.Tours header > a{font-size:25px; border:3px solid white; font-weight:500; display:inline-block; margin-right:5%; padding:5px 2%;}
+    section.Tours header > a{font-size:25px; border:3px solid white; font-weight:500; display:inline-block; margin-right:5%; padding:5px 2%; transition-duration:2s;}
+    section.Tours header > a:hover{background-color:#205ed7;}
     section.Tours ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Tours ul li{float:left; width:25%;}
     section.Tours ul li a{display:block; color:white;}
@@ -86,7 +88,8 @@ a{text-decoration:none;}
     section.Tours header a{color:white; display:block;}
     section.Tours header h1{font-size:70px; color:white; margin-bottom:20px; font-weight:500;}
     section.Tours header p{font-size:20px; color:white; line-height:22px; margin-bottom:20px;}
-    section.Tours header > a{font-size:25px; border:3px solid white; font-weight:500; display:inline-block; margin-right:5%; padding:5px 2%;}
+    section.Tours header > a{font-size:25px; border:3px solid white; font-weight:500; display:inline-block; margin-right:5%; padding:5px 2%; transition-duration:2s;}
+    section.Tours header > a:hover{background-color:#205ed7;}
     section.Tours ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Tours ul li{float:left; width:25%;}
     section.Tours ul li a{display:block; color:white;}
@@ -109,6 +112,7 @@ a{text-decoration:none;}
     footer nav ul:not(:last-child) li a{display:block;}
     footer nav ul:not(:last-child) li a dl dt{font-size:25px; margin-bottom:20px;}
     footer nav ul:not(:last-child) li a dl dd{font-size:15px; margin-bottom:10px; line-height:15px;}
+    footer nav ul:not(:last-child) li a dl dd:hover{font-size:20px;}
     footer nav ul:last-child{float:right; right:5%; width:25%;}
     footer nav ul:last-child li{float:left; width:20%; padding-top:200px; text-indent:-9999px;}
     footer nav ul:last-child li a{display:block;}

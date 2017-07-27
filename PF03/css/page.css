@@ -2,7 +2,8 @@
     section.Remains{background:url(../images/2_image.png) no-repeat; background-size:50%; background-position:5% 5%; margin:0 auto 210px; width:90%; height:600px;}
     section.Remains h2{width:55%; margin:0 auto; font-size:50px; font-weight:500; padding:0 0 40px 40%;}
     section.Remains h2 a{display:block; color:black;}
-    section.Remains p{margin:0px 0 45px 30%; font-size:20px; color:gray;}
+    section.Remains p{margin:0px 0 45px 30%; font-size:20px; color:gray; transition-duration:2s;}
+    section.Remains p:hover{color:black;}
     section.Remains ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Remains ul{margin-bottom:35px;}
     section.Remains ul li{float:left; width:30%; margin:0 40px 40px 0; padding-left:8%;}
@@ -13,8 +14,8 @@
     section.Remains ul li a{text-align:center; color:black; display:block;}
     section.Remains ul li a dl dt{font-size:25px; margin-bottom:20px;}
     section.Remains ul li a dl dd{font-size:15px;}
-    section.Remains > a{border:3px solid black; box-sizing:border-box; color:black; font-size:20px; font-weight:500; width:40%; margin:0 auto; display:block; padding:5px 0;}
-    section.Remains > a:hover{transform:scale(1.2); transition-duration:1s;}
+    section.Remains > a{border:3px solid black; box-sizing:border-box; color:black; font-size:20px; font-weight:500; width:40%; margin:0 auto; display:block; padding:5px 0; transition-duration:1s;}
+    section.Remains > a:hover{transform:scale(1.2);}
     /*RemainsFin*/
 
     section.Gallery{width:90%; margin:0 auto 290px; position:relative; padding-left:5%;}
@@ -42,10 +43,12 @@
     section.Uniqe div h3{font-size:40px; font-weight:500; margin-bottom:15px;}
     section.Uniqe div h3 a{color:black;}
     section.Uniqe div p{font-size:15px; margin-bottom:40px; color:grey;}
-    section.Uniqe div span:first-of-type{display:inline-block; margin-right:5%; border:3px solid black; padding:2% 1%;}
-    section.Uniqe div span:first-of-type a{color:black; font-size:20px; font-weight:500; display:block;}
-    section.Uniqe div span:last-of-type{border-bottom:2px solid black;}
-    section.Uniqe div span:last-of-type a{color:grey; font-size:10px; display:block;}
+    section.Uniqe div span:first-of-type{display:inline-block; margin-right:5%; border:3px solid black;}
+    section.Uniqe div span:first-of-type a{color:black; font-size:20px; font-weight:500; display:block; transition-duration:2s; padding:3% 0;}
+    section.Uniqe div span:first-of-type a:hover{background-color:#205ed7; color:white;}
+    section.Uniqe div span:last-of-type{border-bottom:2px solid black; display:inline-block;}
+    section.Uniqe div span:last-of-type a{color:grey; font-size:10px; display:block; transition-duration:2s;}
+    section.Uniqe div span:last-of-type a:hover{transform:scale(1.2);}
     /*UniqeFin*/
 
     div.More{width:100%; background:url(../images/5_bg.png) no-repeat; background-size:cover;}
@@ -102,9 +105,11 @@
     section.Uniqe div h3 a{color:black;}
     section.Uniqe div p{font-size:15px; margin-bottom:40px; color:grey;}
     section.Uniqe div span:first-of-type{display:inline-block; margin-right:5%; border:3px solid black; padding:2% 1%;}
-    section.Uniqe div span:first-of-type a{color:black; font-size:20px; font-weight:500; display:block;}
-    section.Uniqe div span:last-of-type{border-bottom:2px solid black;}
-    section.Uniqe div span:last-of-type a{color:grey; font-size:10px; display:block;}
+    section.Uniqe div span:first-of-type a{color:black; font-size:20px; font-weight:500; display:block; transition-duration:2s;}
+    section.Uniqe div span:first-of-type a:hover{background-color:#205ed7;}
+    section.Uniqe div span:last-of-type{border-bottom:2px solid black; display:inline-block;}
+    section.Uniqe div span:last-of-type a{color:grey; font-size:10px; display:block; transition-duration:2s;}
+    section.Uniqe div span:last-of-type a:hover{transform:scale(1.2);}
     /*UniqeFin*/
 
     div.More{width:100%; background:url(../images/5_bg.png) no-repeat; background-size:cover;}
@@ -124,6 +129,7 @@
     section.Remains ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Remains ul{padding-left:40%; width:60%; margin-bottom:90px;}
     section.Remains ul li{float:left; width:30%; margin:0 40px 40px 0; padding-left:8%;}
+    section.Remains ul li:hover{transform:scale(1.2);}
     section.Remains ul li:first-child{background:url(../images/2_icon_01.png) no-repeat; background-size:15%;}
     section.Remains ul li:nth-child(2){background:url(../images/2_icon_02.png) no-repeat; background-size:15%;}
     section.Remains ul li:nth-child(3){background:url(../images/2_icon_03.png) no-repeat; background-size:15%; margin-bottom:0;}
@@ -131,7 +137,8 @@
     section.Remains ul li a{text-align:center; color:black; display:block;}
     section.Remains ul li a dl dt{font-size:25px; margin-bottom:20px;}
     section.Remains ul li a dl dd{font-size:15px;}
-    section.Remains > a{margin-left:8%; padding:5px 0; border:3px solid black; box-sizing:border-box; color:black; font-size:25px; font-weight:500; display:block; width:15%; text-align:center;}
+    section.Remains > a{margin-left:8%; padding:5px 0; border:3px solid black; box-sizing:border-box; color:black; font-size:25px; font-weight:500; display:block; width:15%; text-align:center; transition-duration:1s;}
+    section.Remains > a:hover{transform:scale(1.2);}
     /*RemainsFin*/
 
     section.Gallery{width:90%; margin:0 auto 150px; position:relative; padding-left:5%;}
@@ -161,10 +168,12 @@
     section.Uniqe div h3{font-size:40px; font-weight:500; margin-bottom:40px;}
     section.Uniqe div h3 a{color:black; display:block;}
     section.Uniqe div p{font-size:20px; margin-bottom:40px; color:grey;}
-    section.Uniqe div span:first-of-type{display:inline-block; margin-right:5%; border:3px solid black; padding:2% 1%;}
-    section.Uniqe div span:first-of-type a{color:black; font-size:20px; font-weight:500; display:block;}
-    section.Uniqe div span:last-of-type{border-bottom:2px solid black;}
-    section.Uniqe div span:last-of-type a{color:grey; font-size:10px; display:block;}
+    section.Uniqe div span:first-of-type{display:inline-block; margin-right:5%; border:3px solid black;}
+    section.Uniqe div span:first-of-type a{color:black; font-size:20px; font-weight:500; display:block; padding:2% 0; transition-duration:2s;}
+    section.Uniqe div span:first-of-type a:hover{background-color:#205ed7;}
+    section.Uniqe div span:last-of-type{border-bottom:2px solid black; display:inline-block;}
+    section.Uniqe div span:last-of-type a{color:grey; font-size:10px; display:block; transition-duration:2s;}
+    section.Uniqe div span:last-of-type a:hover{transform:scale(1.2);}
     /*UniqeFin*/
 
     div.More{width:100%; background:url(../images/5_bg.png) no-repeat; background-size:cover;}
