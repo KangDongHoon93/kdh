@@ -1,9 +1,6 @@
 ﻿body{background-color:black;}
-
 body > *{font-family: 'El Messiri', sans-serif;}
-
 a{text-decoration:none;}
-
 span.swiper-pagination-bullet{background-color:#c09a0e; width:10px; height:10px;}
 span.swiper-pagination-bullet-active{background:white;}
 /**All Using*/
