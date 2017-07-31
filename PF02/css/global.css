@@ -4,6 +4,10 @@ body > *{font-family: 'El Messiri', sans-serif;}
 
 a{text-decoration:none;}
 
+span.swiper-pagination-bullet{background-color:#c09a0e; width:10px; height:10px;}
+span.swiper-pagination-bullet-active{background:white;}
+/**All Using*/
+
 @media screen and (max-width:769px){
     header{width:100%; background:url(../images/bg_01.png); background-repeat:no-repeat; background-size:cover; padding-top:20px; box-sizing:border-box; margin-bottom:50px;}
     header h1{text-align:center; width:70%; margin:0 auto 30px;}
@@ -17,16 +21,11 @@ a{text-decoration:none;}
     header nav ul li:first-child{margin-left:0;}
     header nav ul li a{width:100%; color:#9f9258; font-size:10px;}
     header nav ul li a:hover{color:white;}
-    header > span{font-size:20px; font-weight:900; color:#f4ca24; position:absolute; bottom:20%; right:32%;}
-    header > span:hover{color:white;}
     /*header Fin*/
 
     article.impor footer{width:100%; text-align:center;}
     article.impor footer p{color:white; font-size:15px;}
     /*footer*/
-
- 
-    span.swiper-pagination-bullet-active{background:white;}
 }
 /*Mobile*/
 
@@ -42,16 +41,11 @@ a{text-decoration:none;}
     header nav ul li:first-child{margin-left:0;}
     header nav ul li a{display:block; color:#9f9258; font-size:15px;}
     header nav ul li a:hover{color:white;}
-    header > span{font-size:30px; font-weight:900; color:#f4ca24; position:absolute; bottom:15%; right:40%;}
-    header > span:hover{color:white;}
     /*header Fin*/
 
     article.impor footer{width:100%; text-align:center;}
     article.impor footer p{color:white; font-size:15px;}
     /*footer*/
-
-  
-    span.swiper-pagination-bullet-active{background:white;}
 }
 /*Tablet*/
 
@@ -61,22 +55,16 @@ a{text-decoration:none;}
     header h1 a{color:#f4ca24; font-size:50px; font-weight:400; display:block;}
     header h1 a img{display:block; margin:0 auto 30px; width:18%;}
     header nav{width:100%;}
-    header nav ul{width:60%; margin:0 auto;}
+    header nav ul{width:40%; margin:0 auto;}
     header nav ul:after{content:''; display:block; clear:both; visibility:hidden;}
     header nav ul li{width:15%; margin-left:5%; float:left; text-align:center;}
     header nav ul li:first-child{margin-left:0;}
     header nav ul li a{display:block; color:#9f9258; font-size:15px;}
     header nav ul li a:hover{color:white;}
-    header > span{font-size:30px; font-weight:900; color:#f4ca24; position:absolute; bottom:15%; right:45%;}
-    header > span:hover{color:white;}
     /*header Fin*/
 
     article.impor footer{width:100%; text-align:center;}
     article.impor footer p{color:white; font-size:15px;}
     /*footer*/
-
-   
-    span.swiper-pagination-bullet-active{background:white;}
 }
-
 /*PC*/

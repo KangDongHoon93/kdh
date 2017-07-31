@@ -311,6 +311,7 @@
     section.contactFin > div h2 span{color:#61fb37;}
     section.contactFin ul{width:100%;}
     section.contactFin ul li{font-size:20px; font-weight:300; margin-bottom:10px; padding:10px 0 10px 10%;}
+    section.contactFin ul li a{display:block; color:white;}
     section.contactFin ul li:first-child{background:url(../images/ico_01.png) no-repeat;}
     section.contactFin ul li:nth-child(2){background:url(../images/ico_02.png) no-repeat;}
     section.contactFin ul li:nth-child(3){background:url(../images/ico_03.png) no-repeat;}

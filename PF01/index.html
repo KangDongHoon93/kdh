@@ -248,20 +248,16 @@
                 ]
             }, {
                 featureType: "road",
-                elementType: "geometry", //geometry.fill 지형지물 구조의 채우기, geometry.stroke 지형지물의 스트로크
+                elementType: "geometry",
                 stylers: [
                   { lightness: 0 },
                   { visibility: "simplified" }
-                  //기본 on, off , simplified 가시성은 해당 지형지물에서 일부 스타일 지형지물을 제거
                 ]
             }, {
                 featureType: "all",
-                // 지형지물 all : 모든요소 표시, road : 길만 표시
                 elementType: "labels",
-                // featureType의 요소에 해당하는 라벨 표시, labels.icon : 지형지물 레이블 내 아이콘만, labels.text : 레이블의 텍스트만 선택, labels.text.fill 레이블의채우기만, label.text.stroke 레이블텍스트의 선만
                 stylers: [
                   { visibility: "on" }
-                  // 보여줄거냐 말거냐
                 ]
             }
           ];
