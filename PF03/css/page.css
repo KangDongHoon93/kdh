@@ -22,9 +22,9 @@
     section.Gallery span{color:red; transform:rotate(-45deg); font-size:15px; position:absolute; top:5px;}
     section.Gallery ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Gallery ul{width:50%; background-color:#d7d7d7;}
-    section.Gallery ul li{width:35%; padding:5%; float:left;}
-    section.Gallery ul li:nth-child(2){transform:rotate(-90deg); margin-bottom:5px; background:url(../images/line.png) no-repeat; background-size:50% 3%; background-position:75% 75%;}
-    section.Gallery ul li:nth-child(2) a{font-size:50px; font-weight:500; color:black;}
+    section.Gallery ul li{width:46%; padding:5%; float:left; line-height:0; box-sizing:border-box;}
+    section.Gallery ul li:nth-child(2){transform:rotate(-90deg); margin-bottom:50px; background:url(../images/line.png) no-repeat; background-size:50% 3%; background-position:75% 75%;}
+    section.Gallery ul li:nth-child(2) a{font-size:30px; font-weight:500; color:black;}
     section.Gallery ul li a{display:block;}
     section.Gallery ul li:not(:nth-child(2)) a:hover{border:2px solid black; box-sizing:border-box;}
     section.Gallery ul li a img{width:100%;}
@@ -36,7 +36,7 @@
     /*GalleryFin*/
 
     section.Uniqe{width:90%; margin:0 auto 150px; background-color:#d7d7d7; position:relative;}
-    section.Uniqe h2{font-size:50px; font-weight:500; padding:0 0 15% 0;  background:url(../images/line.png) no-repeat; background-size:40% 2%; background-position:100% 35%;}
+    section.Uniqe h2{font-size:50px; font-weight:500; padding:0 0 15% 0;  background:url(../images/line.png) no-repeat; background-size:25% 3%; background-position:91% 29%;}
     section.Uniqe h2 a{color:black;}
     section.Uniqe iframe{width:70%; display:block; margin:0 auto;}
     section.Uniqe div{width:80%; margin:0 auto;}
@@ -81,7 +81,7 @@
     section.Gallery span{color:red; transform:rotate(-45deg); font-size:20px; position:absolute; top:20px;}
     section.Gallery ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Gallery ul{width:50%; background-color:#d7d7d7;}
-    section.Gallery ul li{width:35%; padding:5%; float:left;}
+    section.Gallery ul li{width:35%; padding:5%; float:left; line-height:0; box-sizing:border-box;}
     section.Gallery ul li:nth-child(2){transform:rotate(-90deg); margin-bottom:45px; background:url(../images/line.png) no-repeat; background-size:50% 3%; background-position:75% 75%;}
     section.Gallery ul li:nth-child(2) a{font-size:50px; font-weight:500; color:black;}
     section.Gallery ul li a{display:block;}
@@ -141,15 +141,15 @@
     section.Remains > a:hover{transform:scale(1.2);}
     /*RemainsFin*/
 
-    section.Gallery{width:90%; margin:0 auto 150px; position:relative; padding-left:5%;}
+    section.Gallery{width:90%; margin:0 auto 180px; position:relative; padding-left:5%;}
     section.Gallery span{color:red; transform:rotate(-45deg); font-size:25px; position:absolute; top:20px;}
     section.Gallery ul:after{content:''; display:block; clear:both; visibility:hidden;}
     section.Gallery ul{width:50%; background-color:#d7d7d7;}
-    section.Gallery ul li{width:35%; padding:5%; float:left;}
+    section.Gallery ul li{width:35%; padding:5%; float:left; line-height:0; box-sizing:border-box;}
     section.Gallery ul li:nth-child(2){transform:rotate(-90deg); margin-bottom:130px; background:url(../images/line.png) no-repeat; background-size:50% 3%; background-position:123% 53%;}
     section.Gallery ul li:nth-child(2) a{font-size:50px; font-weight:500; color:black;}
     section.Gallery ul li a{display:block;}
-    section.Gallery ul li:not(:nth-child(2)) a:hover{border:2px solid black; box-sizing:border-box;}
+    section.Gallery ul li:not(:nth-child(2)) a:hover{border:2px solid black;}
     section.Gallery ul li a img{width:100%;}
     section.Gallery figure{width:45%; margin:0 auto; position:absolute; left:48%; top:5%;}
     section.Gallery figure img{width:90%; margin-bottom:30px;}
